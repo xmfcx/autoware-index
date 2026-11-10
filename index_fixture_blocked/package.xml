@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>index_fixture_blocked</name>
+  <version>0.0.1</version>
+  <description>Fixture for the failure reports of autoware-index (task 91). Not for use.</description>
+  <maintainer email="mfc@autoware.org">Mete Fatih Cirit</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>index_fixture_compile_error</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
