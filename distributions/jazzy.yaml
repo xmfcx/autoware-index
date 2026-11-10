@@ -202,3 +202,44 @@ repositories:
           - sensing
           - perception
           - planning
+  index_failure_fixtures:
+    url: https://github.com/xmfcx/autoware-index
+    ref:
+      kind: sha
+      value: 1e1f2d547c6eb51e70600d415f54cf0af6d926c7
+    governance: community
+    maintainers:
+      - name: Mete Fatih Cırıt
+        email: mfc@autoware.org
+        github: xmfcx
+    packages:
+      index_fixture_ok:
+        tags:
+          - testing
+      index_fixture_compile_error:
+        tags:
+          - testing
+      index_fixture_cmake_missing:
+        tags:
+          - testing
+      index_fixture_rosdep_missing:
+        tags:
+          - testing
+      index_fixture_blocked:
+        tags:
+          - testing
+      index_fixture_test_fail:
+        tags:
+          - testing
+      index_fixture_test_crash:
+        tags:
+          - testing
+      index_fixture_test_timeout:
+        tags:
+          - testing
+      index_fixture_pytest_fail:
+        tags:
+          - testing
+      index_fixture_absent:
+        tags:
+          - testing
